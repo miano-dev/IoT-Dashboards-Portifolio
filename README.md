@@ -2,26 +2,26 @@
 
 ### Connected Monitoring · Industrial IoT · Electric Vehicle (EV) Mobility
 
-This portfolio presents two engineering projects focused on turning operational data into clear, useful dashboards. The projects cover sensor monitoring, telemetry, data visualisation, fleet visibility, battery information and secure service integration.
+This portfolio presents two engineering projects focused on turning operational data into clear, useful dashboards. The projects cover sensor monitoring, telemetry, fleet visibility, battery information and secure service integration.
 
 The repository provides public-facing project summaries and high-level architecture notes. The application source code and private implementation details remain in their respective private repositories.
 
 ---
 
-## 1. DuduMasters Dashboard
+## 1. Climate Data Monitoring & Reporting
 
-**Domain:** IoT monitoring · Sensor telemetry · Operational dashboards  
-**Source repository:** [DuduMasters-Dashboard](https://github.com/miano-dev/DuduMasters-Dashboard) · *Private*
+**Domain:** Environmental monitoring · IoT sensor telemetry · Data reporting  
+**Source repository:** Private implementation repository
 
 ### Overview
 
-The DuduMasters Dashboard provides a web interface for viewing live sensor readings and historical monitoring data. It brings together telemetry from connected sensors and presents the information through dashboard views, trends and configurable tabular reporting.
+The Climate Data Monitoring & Reporting dashboard provides a web interface for viewing live environmental sensor readings and historical monitoring data. It brings together telemetry from connected sensors and presents the information through dashboard views, trends and configurable tabular reporting.
 
 ### Key capabilities
 
-- **Sensor telemetry:** Temperature, humidity, NPK measurements and other configured monitoring readings.
+- **Environmental sensor telemetry:** Temperature, humidity, NPK measurements and other configured monitoring readings.
 - **Historical monitoring:** Time-series data and historical graphs backed by InfluxDB.
-- **Operational visibility:** Dashboard views for configured monitoring areas, including nursery, biopod and cage readings.
+- **Operational visibility:** Dashboard views for configured monitoring areas and their sensor readings.
 - **Spreadsheet reporting:** An optional Google Sheets data source for separate tabular information, with configurable columns and chart axes.
 - **Access-controlled configuration:** Public visitors can view dashboard information while authorised administrators manage data-source settings.
 
@@ -58,7 +58,8 @@ The sensor telemetry and spreadsheet reporting paths are kept separate. Spreadsh
 ### Engineering focus
 
 - IoT data acquisition and telemetry visualisation
-- Time-series monitoring and historical analysis
+- Environmental and time-series monitoring
+- Historical analysis and reporting
 - Integration of multiple data sources
 - Configurable dashboards and reporting
 - Access control for administrative settings
@@ -144,6 +145,7 @@ Together, these projects demonstrate work across:
 | Internet of Things (IoT) | Connected sensor monitoring and telemetry |
 | Data visualisation | Live readings, historical trends and operational dashboards |
 | Time-series systems | InfluxDB and historical telemetry workflows |
+| Environmental monitoring | Temperature, humidity and other sensor measurements |
 | Electrical and energy systems | Battery and power monitoring |
 | Electric mobility | EV fleet visibility and operational information |
 | Systems integration | Sensors, backend services, dashboards and payment workflows |
@@ -154,7 +156,7 @@ Together, these projects demonstrate work across:
 
 The two application repositories are private. This public portfolio documents their purpose, capabilities and high-level engineering architecture; it does not publish application source code, credentials, privileged configuration, private datasets or proprietary implementation files.
 
-- [DuduMasters-Dashboard — private repository](https://github.com/miano-dev/DuduMasters-Dashboard)
+- **Climate Data Monitoring & Reporting** — private source repository.
 - [EV_Mobility_Dashboard — private repository](https://github.com/miano-dev/EV_Mobility_Dashboard)
 
 ---
